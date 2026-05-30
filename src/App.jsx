@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import logo from './httpsvisit-incredible-bangladesh logo.jpeg';
 
 const spots = [
   {
@@ -716,7 +717,7 @@ Rules: Answer in English. Be warm & enthusiastic. Costs in Taka (৳). Keep unde
         ))}
         {loading && (
           <div style={{ display: "flex" }}>
-            <div style={{ background: "white", padding: "0.85rem 1.1rem", borderRadius: "18px 18px 18px 4px", boxShadow: "0 2px 10px rgba(0,80,40,0.08)", display: "flex", gap: "4px", alignItems: "center" }}>
+            <div style={{ background: "blue", padding: "0.85rem 1.1rem", borderRadius: "18px 18px 18px 4px", boxShadow: "0 2px 10px rgba(0,80,40,0.08)", display: "flex", gap: "4px", alignItems: "center" }}>
               {[0, 0.2, 0.4].map(d => <div key={d} style={{ width: "7px", height: "7px", borderRadius: "50%", background: "#1a6b4a", animation: "bounce 0.8s ease infinite", animationDelay: `${d}s` }} />)}
             </div>
           </div>
